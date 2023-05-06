@@ -1,4 +1,3 @@
-#создай приложение для запоминания информации
 from random import shuffle, randint
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QRadioButton, QMessageBox, QHBoxLayout, QGroupBox, QButtonGroup
@@ -137,6 +136,7 @@ question_list.append(Question("Битва с евреями закончилас
 question_list.append(Question("Какого пола оно", "да", "нет", "не знаю", "не думаю"))
 question_list.append(Question("Что будет если Европу поделить на Америку", "Евразия", "Толстой", "6", "5"))
 question_list.append(Question("Дождь из", "тако", "да", "Лермонтов", "20"))
+question_list.append(Question("Лёд тает только", "зимой", "да", "холодильник", "нет"))
 
 main_win.score = 0
 main_win.total = 0
